@@ -1,7 +1,7 @@
 ## Welcome to Immaterial Quantum Journals
 
 In this website Immateials Quantum Papers will be released. Paper titles could be something like- **How John Preskill Lectures Helps Sleeping** or 
-**Who Should Start A Netflix Comedy? Olivia Lanes or Bullshit** 
+**Who Should Start A Netflix Comedy? Olivia Lanes or BullshitDetector** 
 
 At this moment CFP is going on. Please submit your garbage quantum research paper here. _Believe it, no matter what dumb your paper is it will be accepted_ 
 Submission Deadline: **31st December 2021**. Email: _quantumfiedfun[at]gmail[dot]com_
