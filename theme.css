@@ -1,0 +1,31 @@
+/* Ubuntu Terminal-inspired visual layer */
+:root{
+  --bg:#2c071f;
+  --panel:#350b27;
+  --line:#6d294d;
+  --text:#f5eee9;
+  --muted:#c2a9b5;
+  --green:#e95420;
+  --cyan:#ffb86c;
+  --pink:#ff6b6b;
+  --mono:"Ubuntu Mono",monospace;
+  --sans:"Ubuntu Mono",monospace;
+}
+body{font-family:var(--mono);font-size:15px;background:#2c071f;line-height:1.52}
+body:before{background:radial-gradient(circle at 74% 8%,rgba(233,84,32,.16),transparent 31%),radial-gradient(circle at 12% 72%,rgba(119,33,82,.35),transparent 32%)}
+.site-header{height:66px;background:rgba(44,7,31,.88);border-color:rgba(233,84,32,.28);font-size:11px}
+.brand{font-size:14px}.status i{background:#e95420;box-shadow:0 0 12px #e95420}.hero{min-height:650px;padding:86px 0 74px}
+h1{font-family:var(--mono);font-size:clamp(60px,7.5vw,108px);line-height:.86;letter-spacing:-.055em;margin:32px 0 34px;color:#ff5b35;text-shadow:3px 0 0 rgba(255,184,108,.13),0 0 22px rgba(233,84,32,.16)}
+h1 span{color:#d74849;-webkit-text-stroke:0;text-shadow:2px 0 #ff9a76}
+h2{font-family:var(--mono);font-size:clamp(32px,4.2vw,56px);letter-spacing:-.025em;line-height:1.03}
+h2 span,.project h3,.papers h3,.timeline h3{color:#ff7550}
+.lede{font-size:18px;line-height:1.48}.eyebrow,.section-label{font-size:11px;letter-spacing:.13em}.section{padding:92px 0}
+.scholar-card,.console,.contact-terminal{background:rgba(53,11,39,.92);border-color:#6d294d;box-shadow:0 28px 80px rgba(18,0,12,.52),inset 0 0 38px rgba(233,84,32,.025)}
+.terminal-bar{height:36px}.terminal-body{font-size:11px}.metrics strong{font-size:24px;color:#ff7048}.metrics span{font-size:9px}.spark i{background:linear-gradient(#ffb86c,#e95420)}
+.research-grid>div>p{font-size:16px}.project{min-height:300px;background:linear-gradient(145deg,rgba(62,13,45,.97),rgba(39,5,27,.97));border-color:#6d294d}.project.featured{min-height:360px}.project h3{font-size:24px;margin-top:38px}.project.featured h3{font-size:35px}.project>p{font-size:14px}.result-grid strong{font-size:18px;color:#ffb86c}.terminal-result{font-size:10px;background:#220317;border-color:#e95420}.papers h3{font-size:18px}.papers p,.timeline p{font-size:12px}
+.button.primary{background:#e95420;border-color:#e95420;color:#fff}.ticker{background:rgba(42,5,29,.9)}
+.grain{opacity:.06;background-size:96px 96px}
+#quantum-field{opacity:.58;filter:hue-rotate(228deg) saturate(1.2)}
+.eyebrow,.section-label,.terminal-bar,.terminal-body,.log-lines,.terminal-result,.ticker,.focus-line{font-variant-ligatures:none;text-shadow:1px 0 rgba(255,120,80,.1)}
+.hero-copy,.scholar-card,.section>*,.contact-terminal{image-rendering:pixelated}
+@media(max-width:560px){body{font-size:14px}h1{font-size:54px}.lede{font-size:16px}.section{padding:66px 0}.project.featured h3{font-size:27px}}
